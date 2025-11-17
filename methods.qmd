@@ -29,15 +29,9 @@ format:
 editor:
   source
 abstract: |
-  Here we have resources and links for common movement ecology methods that you might want to use. Click the tabs on the left to navigate between methods.
+
 ---
 
 Here we have resources and links for common movement ecology methods that you might want to use. Click the tabs on the left to navigate between methods.
 
-
-
-
-# References
-
-::: {#refs}
-:::
+The [General Resources](methods_scripts/general_resources.qmd) tab contains links to general resources that are useful for many movement ecology methods, such as books and review papers. 

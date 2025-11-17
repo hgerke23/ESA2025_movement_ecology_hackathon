@@ -36,7 +36,7 @@ Welcome to the landing page of the ESA2025 workshop - **Movement Ecology Hackath
 
 This workshop was organised by members of the Ecological Society of Australia’s **Movement Ecology Special Interest Network Special Interest Network (MoveSIN)**. You can view the website of the MoveSIN [here](https://movesin.github.io/website/), which has a sign-up form, and you can check out the listing on the ESA website [here](https://www.ecolsoc.org.au/category/research-chapters/movement-ecology/).
 
-To get started with the materials for this workshop, visit the [Getting Started](about.qmd) page.
+To get started with the materials for this workshop, visit the [Getting Started](getting_started.qmd) page.
 
 ![Photo by Alexander Babych - from <https://babych.au/wild-and-unfiltered-a-closer-look-at-the-dingoes-of-the-tanami-desert/>](images/dingo_tanami.jpg)
 
