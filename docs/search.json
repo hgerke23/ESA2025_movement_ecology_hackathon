@@ -7,6 +7,13 @@
     "text": "First, it will be helpful to access the full code repository for this workshop. There are a couple ways to do this.\n\nFork the repository on GitHub: Go to the GitHub page for this repository: https://github.com/swforrest/ESA2025_animal_movement_workshop\nDownload the repository as a ZIP file: You can do this by clicking on the green “Code” button at the top right of the GitHub page and selecting “Download ZIP”. Once downloaded, unzip the file to a location on your computer where you can easily find it."
   },
   {
+    "objectID": "data_study_system.html",
+    "href": "data_study_system.html",
+    "title": "Data and Study System",
+    "section": "",
+    "text": "Dingo (Canis lupus dingo)\n\nDingoes (Canis lupus dingo) most likely arrived in Australia on boats from Asia at least 4,000 years ago [1–3]. Sometime after their introduction and adoption by indigenous Australians, dingoes became feral and have since occupied nearly every terrestrial habitat on the mainland [4]. Dingoes, like free-roaming dogs elsewhere, interact with humans and the water and food resources they provide either purposely or accidentally though refuse and artificial water points [5].\n\n*From Newsome et al. (2013).\n\n\nReferences\n\n\nNewsome, Thomas M, Guy-Anthony Ballard, Christopher R Dickman, Peter J S Fleming, and Chris Howden. 2013. “Anthropogenic resource subsidies determine space use by Australian arid zone dingoes: an improved resource selection modelling approach.” PloS One 8 (May): e63931. https://doi.org/10.1371/journal.pone.0063931."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ESA2025_animal_movement_workshop",

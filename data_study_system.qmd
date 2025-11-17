@@ -1,0 +1,47 @@
+---
+title: "Data and Study System"
+author: 
+  - name: "Scott Forrest"
+    url: https://swforrest.github.io/
+    orcid: 0000-0001-9529-0108
+    affiliation: Queensland University of Technology, CSIRO
+    email: "scottwforrest@gmail.com"
+date: "`r Sys.Date()`"
+execute: 
+  cache: false
+bibliography: paperpile_references.bib
+toc: true
+number-sections: false
+format: 
+  html:
+    self-contained: true
+    code-fold: show
+    code-tools: true
+    df-print: paged
+    code-line-numbers: true
+    code-overflow: scroll
+    fig-format: png
+    fig-dpi: 300
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+editor:
+  source
+abstract: |
+  
+---
+
+# Dingo (*Canis lupus dingo*) 
+
+> Dingoes (Canis  lupus  dingo) most likely arrived in Australia on boats from Asia at least 4,000 years ago [1–3].
+Sometime after their  introduction  and  adoption  by  indigenous  Australians, dingoes became feral and have since occupied nearly every terrestrial habitat on the mainland [4]. Dingoes, like free-roaming dogs elsewhere, interact with humans and the water and food resources they provide either purposely or accidentally though refuse and artificial water points [5].
+
+*From Newsome et al. [-@Newsome2013-ya].
+
+# References
+
+::: {#refs}
+:::
+
+

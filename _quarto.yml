@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: docs
+  
+freeze: auto  # re-render only when source changes
 
-
+# website level options
 website:
-  title: "ESA2025 Movement Ecology Hackathon - A Dingo Case Study"
+  title: "ESA2025 Movement Ecology Hackathon"
   navbar:
     left:
       - href: index.qmd
@@ -14,8 +16,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - united
     css: styles.css
     toc: true
 
