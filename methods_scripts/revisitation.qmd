@@ -32,7 +32,12 @@ abstract: |
   
 ---
 
+## recurse package
 
+The `recurse` R package can be used to analyse revisitation patterns in animal movement data. It provides functions to identify and quantify the number of times an animal returns to specific locations, as well as the duration of stays at those locations. This can be useful for understanding habitat use, foraging behavior, and territoriality.
+
+#### Recurse vignette (tutorial)
+<https://cran.r-project.org/web/packages/recurse/vignettes/recurse.html>
 
 
 

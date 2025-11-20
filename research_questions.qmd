@@ -34,39 +34,42 @@ abstract: |
 
 Below are some examples of research questions that could be explored with the dingo GPS data set. These are just suggestions to get you thinking - feel free to come up with your own questions too!
 
-The focus of papers that have previously analysed this data focused on broad-scale behaviours like home ranges [@Newsome2013-ya] and landscape-scale resource selection [@Newsome2013-sw], but there are a number of other research questions that could be addressed, particularly at fine-scales. Some suggestions are:
+The focus of papers that have previously analysed this data focused on broad-scale behaviours like home ranges [@Newsome2013-ya] and landscape-scale resource selection [@Newsome2013-sw], but there are a number of other research questions that could be addressed, particularly at fine-scales. 
+
+Some suggestions are:
 
 ## How do dingo behaviours differ between individuals at mine sites and those elsewhere? 
 - Do non-mine dingoes spend more time in higher energy foraging states?
 - When do they switch behaviours, how does that differ between mine/non-mine IDs
 
-### Methods
+#### Methods
 - Hidden Markov models [@Langrock2012-yu; @McClintock2012-vt] 
 - Behavioural change point analysis (BCPA) [@Gurarie2009-jh; @Gurarie2013-zq; @Gurarie2016-bs]
-- Machine learning for behavioural classification
 
 
 ## What is the influence of the surrounding environment on the dingoes' movement?
-- Does this differ between mine and non-mine sites?
+- Do they select for linear features such as roads?
+- Does their movement and habitat selection differ between mine and non-mine sites?
 
-## Methods
+### Methods
 - Step selection functions (SSFs) [@Fortin2005-zw; @Thurfjell2014-gq; @Signer2019-fi]
 
 
 ## How do dingoes’ behaviours change across the day?
-- Assessing temporal dynamics in movement and habitat selection
-- Looking at behavioural state changes across the day
+- Are there temporal dynamics in their movement and habitat selection?
+- Does the probability of switching behaviours vary throughout the day?
 
-### Methods
+#### Methods
 - Descriptive (summarising data across the day)
 - Temporally dynamic SSFs [@Forrest2024-gc; @Klappstein2024-ax]
-- HMMs with temporal covariate on state transition matrix
+- HMMs with a temporal covariate on state transition matrix
 
 
 ## How do dingoes connect through the landscape?
-- Generating connectivity pathways and movement corridors
+- What are their connectivity pathways and movement corridors?
+- Would adding more roads increase or decrease their landscape connectivity?
 
-### Methods
+#### Methods
 - Step selection functions with simulations [@Signer2023-wm; @Hofmann2023-ii; @Forrest2024-gc; @Cowan2025-cg]
 - Connectivity analyses
   - Betweenness/connectivity [@Hofmann2023-ii; @Cowan2025-cg]
@@ -76,12 +79,14 @@ The focus of papers that have previously analysed this data focused on broad-sca
 
 
 ## Do dingoes near mines have a higher probability of disease transmission?
-- Do dingoes near mines revisit the same sites more often, or more often with other individuals?
-- Are their social networks more connected?
+- Do dingoes near mines revisit the same sites more often, such as dumps?
+- Which dingoes interact more often with other individuals?
+- Are dingoes at mine sites have more connected social networks?
 
-### Methods
-- Social network analysis
+#### Methods
+- Social network analysis 
 - Revisitation [@Bracis2018-ny]
+
 
 
 ## References

@@ -32,8 +32,26 @@ abstract: |
   
 ---
 
+## Tutorials and resources
 
+**An introduction to social network analysis in R**
+- igraph package vignette - <https://cran.r-project.org/web/packages/igraph/vignettes/igraph.html>
 
+`spatsoc` **package documentation and tutorials**
+- <https://docs.ropensci.org/spatsoc/index.html>
+- Robitaille, A. L., Webber, Q. M. R., & Vander Wal, E. (2019). Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc. Methods in Ecology and Evolution, 10(8), 1203–1211. https://doi.org/10.1111/2041-210x.13215
+
+`aniSNA` **package paper**
+- <https://www.biorxiv.org/content/10.1101/2024.05.10.593659v1.full>
+- 
+
+## Useful papers
+
+[@Farine2015-sp]
+- Farine, D. R., & Whitehead, H. (2015). Constructing, conducting and interpreting animal social network analysis. The Journal of Animal Ecology, 84(5), 1144–1163. https://doi.org/10.1111/1365-2656.12418
+
+[@Kaur2024-cm]
+- Kaur, P., Ciuti, S., Ossi, F., Cagnacci, F., Morellet, N., Loison, A., Atmeh, K., McLoughlin, P., Reinking, A. K., Beck, J. L., Ortega, A. C., Kauffman, M., Boyce, M. S., Haigh, A., David, A., Griffin, L. L., Conteddu, K., Faull, J., & Salter-Townshend, M. (2024). A protocol for assessing bias and robustness of social network metrics using GPS based radio-telemetry data. Movement Ecology, 12(1), 55. https://doi.org/10.1186/s40462-024-00494-6
 
 
 
