@@ -1,0 +1,188 @@
+---
+title: "Step selection functions (SSF)"
+# author: 
+#   - name: "Scott Forrest"
+#     url: https://swforrest.github.io/
+#     orcid: 0000-0001-9529-0108
+#     affiliation: Queensland University of Technology, CSIRO
+#     email: "scottwforrest@gmail.com"
+date: today
+execute: 
+  cache: false
+bibliography: ../paperpile_references.bib
+toc: true
+number-sections: false
+format: 
+  html:
+    self-contained: true
+    code-fold: show
+    code-tools: true
+    df-print: paged
+    code-line-numbers: true
+    code-overflow: scroll
+    fig-format: png
+    fig-dpi: 300
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+editor:
+  source
+abstract: |
+  
+---
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(sf)
+library(terra)
+library(amt)
+
+```
+
+# Load data
+
+```{r}
+
+dingo_data <- read_csv("data/tanami_collars.csv") %>% filter(x > 0)
+dingo_data_sf <- st_as_sf(dingo_data, coords = c("x", "y"), crs = 4326)
+
+```
+
+# Load shapefiles
+
+```{r}
+
+artificial_food_locations <- st_read("spatial_layers/artificial_food/Art_Food_W84.shp") 
+artificial_water <- st_read("spatial_layers/artificial_water/ArtWater_W84v2.shp")
+roads <- st_read("spatial_layers/roads/RM_rds_trks_clip.shp") %>% 
+  st_transform(crs = st_crs(artificial_food_locations))
+
+```
+
+## Plot the shapefiles
+
+```{r}
+
+ggplot() +
+  geom_sf(data = roads, color = "black") +
+  geom_sf(data = artificial_water, color = "blue") +
+  geom_sf(data = artifical_food_locations, color = "red") +
+  geom_sf(data = dingo_data_sf, aes(color = as.factor(dog_id)), size = 0.25, alpha = 0.25) +
+  theme_bw()
+
+```
+
+## Create an AOI for downloading DEM
+
+```{r}
+
+# Function to create rectangle from coordinate bounds
+create_rectangle_shapefile <- function(df, x_col = "x", y_col = "y", 
+                                       buffer = 0.05, crs = 4326, 
+                                       output_path = "rectangle") {
+  
+  # Calculate bounds with buffer
+  min_x <- min(df[[x_col]], na.rm = TRUE) - buffer
+  max_x <- max(df[[x_col]], na.rm = TRUE) + buffer
+  min_y <- min(df[[y_col]], na.rm = TRUE) - buffer
+  max_y <- max(df[[y_col]], na.rm = TRUE) + buffer
+  
+  # Create rectangle coordinates (clockwise from bottom-left)
+  rectangle_coords <- matrix(c(
+    min_x, min_y,  # bottom-left
+    max_x, min_y,  # bottom-right
+    max_x, max_y,  # top-right
+    min_x, max_y,  # top-left
+    min_x, min_y   # close the polygon
+  ), ncol = 2, byrow = TRUE)
+  
+  # Create polygon geometry
+  rectangle_poly <- st_polygon(list(rectangle_coords))
+  
+  # Create sf object
+  rectangle_sf <- st_sf(
+    id = 1,
+    area = st_area(rectangle_poly),
+    geometry = st_sfc(rectangle_poly, crs = crs)
+  )
+  
+  rectangle_projected <- st_transform(rectangle_sf, crs = 4326) 
+  
+  # Export as shapefile
+  st_write(rectangle_projected, paste0(output_path, ".shp"), 
+           delete_dsn = TRUE, quiet = TRUE)
+  
+  # Also export as GeoJSON (alternative format)
+  st_write(rectangle_projected, paste0(output_path, ".geojson"), 
+           delete_dsn = TRUE, quiet = TRUE)
+  
+  # Print summary
+  cat("Rectangle created with bounds:\n")
+  cat("X range:", min_x, "to", max_x, "\n")
+  cat("Y range:", min_y, "to", max_y, "\n")
+  cat("Files saved:", paste0(output_path, ".shp"), "and", paste0(output_path, ".geojson"), "\n")
+  
+  return(rectangle_projected)
+}
+
+```
+
+### Use function to create shapefile and geojson
+
+```{r}
+
+# Create the rectangle shapefile
+dingo_extent <- create_rectangle_shapefile(
+  df = dingo_data,
+  x_col = "x",             # column name for easting/longitude
+  y_col = "y",             # column name for northing/latitude
+  buffer = 0.1,           # buffer distance in coordinate units (degrees or m)
+  crs = 4326,              # coordinate reference system of GPS locations (will output in 4326)
+  output_path = "spatial_layers/extent/dingo_extent" # without extension
+)
+
+# View the result
+print(dingo_extent)
+
+# Create a sf object
+dingo_extent_sf <- st_geometry(dingo_extent)
+
+# Optional: Add your original points to the plot
+plot(dingo_extent_sf, main = "Rectangle with Original Points")
+plot(st_geometry(dingo_data_sf), add = TRUE, col = "red")
+
+```
+
+## Check DEM
+
+We downloaded the DEM from [Geoscience Australia](https://elevation.fsdf.org.au/), which is a 1 second resolution DEM for Australia. We will use this to create slope and roughness layers. We will .
+
+```{r}
+
+# read in the DEM
+dem <- terra::rast("spatial_layers/topography/Hydro_Enforced_1_Second_DEM.tif") # hydro-enforced DEM
+dem
+plot(dem)
+
+```
+## Create slope layer
+
+```{r}
+
+# create slope layer
+slope <- terra::terrain(dem, v = "slope", unit = "degrees", neighbors = 8)
+plot(slope)
+
+# save the layer
+terra::writeRaster(slope, "spatial_layers/topography/slope.tif", overwrite = T)
+
+```
+
+# References
+
+::: {#refs}
+:::

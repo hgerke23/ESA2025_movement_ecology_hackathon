@@ -196,7 +196,18 @@
     "href": "methods_scripts/social_networks.html",
     "title": "Social Network Analysis",
     "section": "",
-    "text": "An introduction to social network analysis in R - igraph package vignette - https://cran.r-project.org/web/packages/igraph/vignettes/igraph.html\nspatsoc package documentation and tutorials - https://docs.ropensci.org/spatsoc/index.html - Robitaille, A. L., Webber, Q. M. R., & Vander Wal, E. (2019). Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc. Methods in Ecology and Evolution, 10(8), 1203–1211. https://doi.org/10.1111/2041-210x.13215\naniSNA package paper - https://www.biorxiv.org/content/10.1101/2024.05.10.593659v1.full -",
+    "text": "spatsoc - https://docs.ropensci.org/spatsoc/index.html - For generating social networks from animal telemetry data\naniSNA - https://www.biorxiv.org/content/10.1101/2024.05.10.593659v1.full - For animal social network analysis using telemetry data\nigraph - https://igraph.org/r/ - General package for making network graphs and calculating network metrics",
+    "crumbs": [
+      "Methods",
+      "Social Network Analysis"
+    ]
+  },
+  {
+    "objectID": "methods_scripts/social_networks.html#packages",
+    "href": "methods_scripts/social_networks.html#packages",
+    "title": "Social Network Analysis",
+    "section": "",
+    "text": "spatsoc - https://docs.ropensci.org/spatsoc/index.html - For generating social networks from animal telemetry data\naniSNA - https://www.biorxiv.org/content/10.1101/2024.05.10.593659v1.full - For animal social network analysis using telemetry data\nigraph - https://igraph.org/r/ - General package for making network graphs and calculating network metrics",
     "crumbs": [
       "Methods",
       "Social Network Analysis"
@@ -206,8 +217,8 @@
     "objectID": "methods_scripts/social_networks.html#tutorials-and-resources",
     "href": "methods_scripts/social_networks.html#tutorials-and-resources",
     "title": "Social Network Analysis",
-    "section": "",
-    "text": "An introduction to social network analysis in R - igraph package vignette - https://cran.r-project.org/web/packages/igraph/vignettes/igraph.html\nspatsoc package documentation and tutorials - https://docs.ropensci.org/spatsoc/index.html - Robitaille, A. L., Webber, Q. M. R., & Vander Wal, E. (2019). Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc. Methods in Ecology and Evolution, 10(8), 1203–1211. https://doi.org/10.1111/2041-210x.13215\naniSNA package paper - https://www.biorxiv.org/content/10.1101/2024.05.10.593659v1.full -",
+    "section": "Tutorials and resources",
+    "text": "Tutorials and resources\n####spatsoc package documentation and tutorials - https://docs.ropensci.org/spatsoc/index.html - Robitaille, A. L., Webber, Q. M. R., & Vander Wal, E. (2019). Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc. Methods in Ecology and Evolution, 10(8), 1203–1211. https://doi.org/10.1111/2041-210x.13215\n\naniSNA package paper\n\nhttps://www.biorxiv.org/content/10.1101/2024.05.10.593659v1.full\n\n\n\nAn introduction to social network analysis in R\n\nigraph package vignette - https://cran.r-project.org/web/packages/igraph/vignettes/igraph.html",
     "crumbs": [
       "Methods",
       "Social Network Analysis"
