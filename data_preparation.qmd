@@ -267,6 +267,19 @@ plot(dist_roads, main = "Distance to Roads")
 
 ```
 
+# NDVI
+
+```{r}
+
+# load NDVI layer
+ndvi <- terra::rast("spatial_layers/ndvi/MODIS_mean_NDVI_2008_2010.tif")
+plot(ndvi, main = "Mean NDVI 2008-2010 - MODIS")
+
+ndvi <- terra::project(ndvi, crs(dem))
+plot(ndvi, main = "Mean NDVI 2008-2010 - MODIS")
+
+```
+
 
 # References
 
