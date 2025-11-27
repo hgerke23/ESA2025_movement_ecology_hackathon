@@ -34,6 +34,7 @@ website:
           - methods_scripts/ssf.qmd
           - methods_scripts/revisitation.qmd
           - methods_scripts/social_networks.qmd
+          - methods_scripts/state-space_models.qmd
           
   page-footer:
     center:

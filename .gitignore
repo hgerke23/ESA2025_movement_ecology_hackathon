@@ -3,6 +3,8 @@ qgis/
 #spatial_layers/
 toms_layers/
 
+Landsat5_meanNDVI_2008_2010.tif
+
 # History files
 .Rhistory
 .Rapp.history

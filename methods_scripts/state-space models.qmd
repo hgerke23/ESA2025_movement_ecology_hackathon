@@ -1,0 +1,57 @@
+---
+title: "State-space models"
+# author: 
+#   - name: "Scott Forrest"
+#     url: https://swforrest.github.io/
+#     orcid: 0000-0001-9529-0108
+#     affiliation: Queensland University of Technology, CSIRO
+#     email: "scottwforrest@gmail.com"
+date: today
+execute: 
+  cache: false
+bibliography: ../paperpile_references.bib
+toc: true
+number-sections: false
+format: 
+  html:
+    self-contained: true
+    code-fold: show
+    code-tools: true
+    df-print: paged
+    code-line-numbers: true
+    code-overflow: scroll
+    fig-format: png
+    fig-dpi: 300
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+editor:
+  source
+abstract: |
+  
+---
+
+## Packages
+
+- `aniMotum` -package for state space models [@Jonsen2023-rk]
+
+## Tutorials and resources
+
+#### `aniMotum` **setting up package and getting started**
+- <https://github.com/ianjonsen/aniMotum>
+
+## Useful papers
+
+[@Jonsen2023-rk] - aniMotum package paper
+Jonsen, I. D., Grecian, W. J., Phillips, L., Carroll, G., McMahon, C., Harcourt, R. G., Hindell, M. A., & Patterson, T. A. (2023). **aniMotum, an R package for animal movement data: Rapid quality control, behavioural estimation and simulation**. Methods in Ecology and Evolution / British Ecological Society. https://doi.org/10.1111/2041-210x.14060
+
+
+[@Jonsen2020-wy] - error modeling for Argos data
+Jonsen, I. D., Patterson, T. A., Costa, D. P., Doherty, P. D., Godley, B. J., Grecian, W. J., Guinet, C., Hoenner, X., Kienle, S. S., Robinson, P. W., Votier, S. C., Whiting, S., Witt, M. J., Hindell, M. A., Harcourt, R. G., & McMahon, C. R. (2020). **A continuous-time state-space model for rapid quality control of argos locations from animal-borne tags**. Movement Ecology, 8(1). https://doi.org/10.1186/S40462-020-00217-7
+
+
+# References
+
+::: {#refs}
+:::

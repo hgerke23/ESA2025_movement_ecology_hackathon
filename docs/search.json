@@ -105,160 +105,39 @@
     "text": "Review papers"
   },
   {
-    "objectID": "methods_scripts/ssf.html",
-    "href": "methods_scripts/ssf.html",
-    "title": "Step selection functions (SSF)",
+    "objectID": "methods_scripts/state-space models.html",
+    "href": "methods_scripts/state-space models.html",
+    "title": "State-space models",
     "section": "",
-    "text": "amt - main package for SSFs (Johannes Signer, Fieberg, and Avgar 2019)",
-    "crumbs": [
-      "Methods",
-      "Step selection functions (SSF)"
-    ]
+    "text": "aniMotum -package for state space models (Jonsen et al. 2023)"
   },
   {
-    "objectID": "methods_scripts/ssf.html#packages",
-    "href": "methods_scripts/ssf.html#packages",
-    "title": "Step selection functions (SSF)",
+    "objectID": "methods_scripts/state-space models.html#packages",
+    "href": "methods_scripts/state-space models.html#packages",
+    "title": "State-space models",
     "section": "",
-    "text": "amt - main package for SSFs (Johannes Signer, Fieberg, and Avgar 2019)",
-    "crumbs": [
-      "Methods",
-      "Step selection functions (SSF)"
-    ]
+    "text": "aniMotum -package for state space models (Jonsen et al. 2023)"
   },
   {
-    "objectID": "methods_scripts/ssf.html#tutorials-and-resources",
-    "href": "methods_scripts/ssf.html#tutorials-and-resources",
-    "title": "Step selection functions (SSF)",
+    "objectID": "methods_scripts/state-space models.html#tutorials-and-resources",
+    "href": "methods_scripts/state-space models.html#tutorials-and-resources",
+    "title": "State-space models",
     "section": "Tutorials and resources",
-    "text": "Tutorials and resources\n\namt preparing data\n\nhttps://cran.r-project.org/web/packages/amt/vignettes/p1_getting_started.html\n\n\n\namt fitting step selection functions\n\nhttps://cran.r-project.org/web/packages/amt/vignettes/p4_SSF.html",
-    "crumbs": [
-      "Methods",
-      "Step selection functions (SSF)"
-    ]
+    "text": "Tutorials and resources\n\naniMotum setting up package and getting started\n\nhttps://github.com/ianjonsen/aniMotum"
   },
   {
-    "objectID": "methods_scripts/ssf.html#useful-papers",
-    "href": "methods_scripts/ssf.html#useful-papers",
-    "title": "Step selection functions (SSF)",
+    "objectID": "methods_scripts/state-space models.html#useful-papers",
+    "href": "methods_scripts/state-space models.html#useful-papers",
+    "title": "State-space models",
     "section": "Useful papers",
-    "text": "Useful papers\n(Fortin et al. 2005) - the OG SSF paper Fortin, D., Beyer, H. L., Boyce, M. S., Smith, D. W., Duchesne, T., & Mao, J. S. (2005). Wolves influence elk movements: Behavior shapes a trophic cascade in Yellowstone National Park. Ecology, 86(5), 1320–1330. https://doi.org/10.1890/04-0953\n(Avgar et al. 2016) - for integrating movement and resource selection (with movement interactions) Avgar, T., Potts, J. R., Lewis, M. A., & Boyce, M. (2016). Integrated step selection analysis: bridging the gap between resource selection and animal movement. Methods in Ecology and Evolution, 7(5), 619–630. https://doi.org/10.1111/2041-210x.12528\n(Fieberg et al. 2021) - helpful guide for interpreting parameters in RSFs and SSFs Fieberg, J., Signer, J., Smith, B., & Avgar, T. (2021). A “How to” guide for interpreting parameters in habitat-selection analyses. The Journal of Animal Ecology, 90(5), 1027–1043. https://doi.org/10.1111/1365-2656.13441\n(J. Signer et al. 2023) - for generating simulations from SSFs Signer, J., Fieberg, J., Reineking, B., Schlägel, U., Smith, B., Balkenhol, N., & Avgar, T. (2023). Simulating animal space use from fitted integrated Step‐Selection Functions (iSSF). Methods in Ecology and Evolution. https://doi.org/10.1111/2041-210x.14263\n(Hofmann et al. 2023) - full workflow from fitting SSFs, running simulations, and calculating connectivity Hofmann, D. D., Cozzi, G., McNutt, J. W., Ozgul, A., & Behr, D. M. (2023). A three-step approach for assessing landscape connectivity via simulated dispersal: African wild dog case study. Landscape Ecology, 38(4), 981–998. https://doi.org/10.1007/s10980-023-01602-4\n(Michelot et al. 2024) - a helpful conceptual overview of what SSFs are and how they’re estimated Michelot, T., Klappstein, N. J., Potts, J. R., & Fieberg, J. (2024). Understanding step selection analysis through numerical integration. Methods in Ecology and Evolution, 15(1), 24–35. https://doi.org/10.1111/2041-210x.14248",
-    "crumbs": [
-      "Methods",
-      "Step selection functions (SSF)"
-    ]
+    "text": "Useful papers\n(Jonsen et al. 2023) - aniMotum package paper Jonsen, I. D., Grecian, W. J., Phillips, L., Carroll, G., McMahon, C., Harcourt, R. G., Hindell, M. A., & Patterson, T. A. (2023). aniMotum, an R package for animal movement data: Rapid quality control, behavioural estimation and simulation. Methods in Ecology and Evolution / British Ecological Society. https://doi.org/10.1111/2041-210x.14060\n(Jonsen et al. 2020) - error modeling for Argos data Jonsen, I. D., Patterson, T. A., Costa, D. P., Doherty, P. D., Godley, B. J., Grecian, W. J., Guinet, C., Hoenner, X., Kienle, S. S., Robinson, P. W., Votier, S. C., Whiting, S., Witt, M. J., Hindell, M. A., Harcourt, R. G., & McMahon, C. R. (2020). A continuous-time state-space model for rapid quality control of argos locations from animal-borne tags. Movement Ecology, 8(1). https://doi.org/10.1186/S40462-020-00217-7"
   },
   {
-    "objectID": "getting_started.html",
-    "href": "getting_started.html",
-    "title": "Getting Started",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ESA2025 Movement Ecology Hackathon: A dingo case study",
     "section": "",
-    "text": "It will be helpful to access the full repository for this workshop, for the data, covariates and any template scripts to get started. The resources (and this website) are hosted on GitHub at: https://github.com/swforrest/ESA2025_movement_ecology_hackathon.\nHere are two preferred ways to get all of the resources (without having to download things individually), 1) by ‘forking’ the repository on GitHub, or 2) by downloading the repository as a ZIP file. If you want to have a copy of the repository on your GitHub account, which you can push any changes to for version control, then choose the first option."
-  },
-  {
-    "objectID": "getting_started.html#fork-the-repository-on-github",
-    "href": "getting_started.html#fork-the-repository-on-github",
-    "title": "Getting Started",
-    "section": "Fork the repository on GitHub",
-    "text": "Fork the repository on GitHub\nThis requires having a GitHub account.\n\nGo to the GitHub page for the repository: https://github.com/swforrest/ESA2025_movement_ecology_hackathon\nClick on the “Fork” button at the top right of the page. This will create a copy of the repository in your own GitHub account.\n\n\n\n\nForking the original repository\n\n\n\nYou can then ‘clone’ this forked repository to your local files. Copying the URL of your forked repository (click on the green “Code” button and copy the URL). You should do this in your own version of the repository, not the original one, otherwise you won’t be able to push your changes.\n\n\n\n\nCopying the repo URL\n\n\n\nThen in RStudio go to File &gt; New Project &gt; Version Control &gt; Git, and paste in the URL you copied. Choose a local directory to save the project, and click “Create Project”.\n\n\n\n\nFile &gt; New project\n\n\n\n\n\nVersion Control\n\n\n You can leave the Project directory name blank to let it default to the repository name.\n\n\n\nPaste URL &gt; Select the location to save the repository folder\n\n\nYou should now have a folder on your computer with all of the files, which is linked to a GitHub repository on your own account. You can then make changes to any of the files, and push them to your GitHub repository."
-  },
-  {
-    "objectID": "getting_started.html#download-the-repository-as-a-zip-file",
-    "href": "getting_started.html#download-the-repository-as-a-zip-file",
-    "title": "Getting Started",
-    "section": "Download the repository as a ZIP file",
-    "text": "Download the repository as a ZIP file\nYou can do this by clicking on the green “Code” button at the top right of the GitHub page and selecting “Download ZIP”. Once downloaded, unzip the file to a location on your computer where you can easily find it.\nThis option will give you a copy of the repository on your local computer, but it will not be linked to a GitHub repository, so you won’t be able to push any changes to GitHub. Of course, you can create your own repository afterwards and push all of the files there, but in that case it’s probably easier to fork the repository first as described above."
-  },
-  {
-    "objectID": "data_study_system.html",
-    "href": "data_study_system.html",
-    "title": "Data and Study System",
-    "section": "",
-    "text": "Dingoes (Canis lupus dingo) most likely arrived in Australia on boats from Asia at least 4,000 years ago [1–3]. Sometime after their introduction and adoption by indigenous Australians, dingoes became feral and have since occupied nearly every terrestrial habitat on the mainland [4]. Dingoes, like free-roaming dogs elsewhere, interact with humans and the water and food resources they provide either purposely or accidentally though refuse and artificial water points [5].\n\nFrom Newsome et al. (2013)."
-  },
-  {
-    "objectID": "data_study_system.html#dingo-canis-lupus-dingo",
-    "href": "data_study_system.html#dingo-canis-lupus-dingo",
-    "title": "Data and Study System",
-    "section": "",
-    "text": "Dingoes (Canis lupus dingo) most likely arrived in Australia on boats from Asia at least 4,000 years ago [1–3]. Sometime after their introduction and adoption by indigenous Australians, dingoes became feral and have since occupied nearly every terrestrial habitat on the mainland [4]. Dingoes, like free-roaming dogs elsewhere, interact with humans and the water and food resources they provide either purposely or accidentally though refuse and artificial water points [5].\n\nFrom Newsome et al. (2013)."
-  },
-  {
-    "objectID": "data_study_system.html#tanami-desert",
-    "href": "data_study_system.html#tanami-desert",
-    "title": "Data and Study System",
-    "section": "Tanami Desert",
-    "text": "Tanami Desert"
-  },
-  {
-    "objectID": "data_study_system.html#mines-in-the-tanami-desert",
-    "href": "data_study_system.html#mines-in-the-tanami-desert",
-    "title": "Data and Study System",
-    "section": "Mines in the Tanami Desert",
-    "text": "Mines in the Tanami Desert\nThe mines, and the artificial food and water resources they provide in the Tanami Desert, offer a natural experiment to examine dingo behavioural responses.\n\nThe study region, covering approximately 18,000 km^2 in the western portion of central Australia’s Tanami Desert (130 deg 189E, 20 deg 309 S), was delimited by the perimeter of all GPS fixes that were obtained from collars fitted to dingoes between April 2008 and April 2010 (Figure 1). Land-use in the study region includes gold mining operations and pastoral activities. Mining operations are located at The Granites and Dead Bullock Soak (DBS). Disused gold mines with open-cut pits and no human occupation are located at Windy Hill and Tanami Mine, and cattle are kept on Tanami Downs. At the time of this study, there were 13 human-provided watering points permanently available to dingoes (Figure 1). Also available to dingoes were large quantities of food scraps within refuse facilities at The Granites and to a lesser extent at DBS. A roadhouse is located at Rabbit Flat and a farm house is occupied by pastoral workers on Tanami Downs. A series of major and minor tracks associated with both pastoral and mining operations exists throughout the study region (Figure 1).\n\nFrom Newsome et al. (2013).\n\nMine sites\n\nFood resources for dingoes are spatially clumped and very rich\nCan lead to increased interactions with humans and possibly each other\n\n\n\nSpatially distant areas (non-mine sites)\n\nFood resources are naturally dispersed and relatively sparse"
-  },
-  {
-    "objectID": "data_study_system.html#gps-data-collection",
-    "href": "data_study_system.html#gps-data-collection",
-    "title": "Data and Study System",
-    "section": "GPS data collection",
-    "text": "GPS data collection\n\n\n\nDingo GPS data collection area\n\n\n\nOne hundred and eleven dingoes were live captured and released between April 2008 and April 2010 and collars housing a GPS data logger and a VHF transmitter (Sirtrack, Havelock North, New Zealand and Bluesky Telemetry, Aberfeldy, Scotland) were fitted to a sample of 23 adults. Both male and female dingoes were collared, but only if they weighed more than 20 times the weight of the collar. Collar weight also limited the sampling period so, to ensure that dingoes were tracked under all seasonal conditions, collaring was staggered throughout the study period. In doing so, we sampled dingoes in as many areas as possible along a latitudinal transect between DBS and Mt Davidson (Figure 1) whilst ensuring replicates of both males and females in the sampled areas where GPS fixes (locations logged and stored as longitude- latitude co-ordinates) had been recovered from retrieved collars. The GPS unit on every collar was programmed to estimate a fix each hour, with sampling rates based on battery-life calculations. Seven collars suffered mechanical failures and did not return any data, and three were not found, but the remainder logged GPS information for up to 10 months at a time. Data from the collars included an Horizontal Dilution Of Position (HDOP) value as well as the number of satellites used to calculate each fix. The HDOP was used to determine a Maximum Allowable Error (MAE) of fix accuracy by multiplying the HDOP value by the accuracy of the GPS device, which was 2.5 m [24]. Fixes with an HDOP value &gt; 8 were excluded to balance the number of usable fixes against positional accuracy, yielding a MAE of 40 m.\n\nFrom Newsome et al. (2013)\n\n\n\nFrom Newsome et al. (2013)."
-  },
-  {
-    "objectID": "data_study_system.html#previous-research-with-this-data",
-    "href": "data_study_system.html#previous-research-with-this-data",
-    "title": "Data and Study System",
-    "section": "Previous research with this data",
-    "text": "Previous research with this data\n(Newsome, Ballard, Dickman, Fleming, and Ven 2013) - Newsome, T. M., Ballard, G.-A., Dickman, C. R., Fleming, P. J. S., & van de Ven, R. (2013). Home range, activity and sociality of a top predator, the dingo: a test of the Resource Dispersion Hypothesis. Ecography, 36(8), 914–925. https://doi.org/10.1111/j.1600-0587.2013.00056.x\n(Newsome, Ballard, Dickman, Fleming, and Howden 2013) - Newsome, T. M., Ballard, G.-A., Dickman, C. R., Fleming, P. J. S., & Howden, C. (2013). Anthropogenic resource subsidies determine space use by Australian arid zone dingoes: an improved resource selection modelling approach. PloS One, 8(5), e63931. https://doi.org/10.1371/journal.pone.0063931"
-  },
-  {
-    "objectID": "research_questions.html",
-    "href": "research_questions.html",
-    "title": "Research Questions",
-    "section": "",
-    "text": "Below are some examples of research questions that could be explored with the dingo GPS data set. These are just suggestions to get you thinking - feel free to come up with your own questions too!\nThe focus of papers that have previously analysed this data focused on broad-scale behaviours like home ranges (Newsome, Ballard, Dickman, Fleming, and Howden 2013) and landscape-scale resource selection (Newsome, Ballard, Dickman, Fleming, and Ven 2013), but there are a number of other research questions that could be addressed, particularly at fine-scales.\nSome suggestions are:"
-  },
-  {
-    "objectID": "research_questions.html#how-do-dingo-behaviours-differ-between-individuals-at-mine-sites-and-those-elsewhere",
-    "href": "research_questions.html#how-do-dingo-behaviours-differ-between-individuals-at-mine-sites-and-those-elsewhere",
-    "title": "Research Questions",
-    "section": "How do dingo behaviours differ between individuals at mine sites and those elsewhere?",
-    "text": "How do dingo behaviours differ between individuals at mine sites and those elsewhere?\n\nDo non-mine dingoes spend more time in higher energy foraging states?\nWhen do they switch behaviours, how does that differ between mine/non-mine IDs\n\n\nMethods\n\nHidden Markov models (Langrock et al. 2012; McClintock et al. 2012)\nBehavioural change point analysis (BCPA) (Gurarie, Andrews, and Laidre 2009; Gurarie 2013; Gurarie et al. 2016)"
-  },
-  {
-    "objectID": "research_questions.html#what-is-the-influence-of-the-surrounding-environment-on-the-dingoes-movement",
-    "href": "research_questions.html#what-is-the-influence-of-the-surrounding-environment-on-the-dingoes-movement",
-    "title": "Research Questions",
-    "section": "What is the influence of the surrounding environment on the dingoes’ movement?",
-    "text": "What is the influence of the surrounding environment on the dingoes’ movement?\n\nDo they select for linear features such as roads?\nDoes their movement and habitat selection differ between mine and non-mine sites?\n\n\nMethods\n\nStep selection functions (SSFs) (Fortin et al. 2005; Thurfjell, Ciuti, and Boyce 2014; Johannes Signer, Fieberg, and Avgar 2019)"
-  },
-  {
-    "objectID": "research_questions.html#how-do-dingoes-behaviours-change-across-the-day",
-    "href": "research_questions.html#how-do-dingoes-behaviours-change-across-the-day",
-    "title": "Research Questions",
-    "section": "How do dingoes’ behaviours change across the day?",
-    "text": "How do dingoes’ behaviours change across the day?\n\nAre there temporal dynamics in their movement and habitat selection?\nDoes the probability of switching behaviours vary throughout the day?\n\n\nMethods\n\nDescriptive (summarising data across the day)\nTemporally dynamic SSFs (Forrest et al. 2024; Klappstein et al. 2024)\nHMMs with a temporal covariate on state transition matrix"
-  },
-  {
-    "objectID": "research_questions.html#how-do-dingoes-connect-through-the-landscape",
-    "href": "research_questions.html#how-do-dingoes-connect-through-the-landscape",
-    "title": "Research Questions",
-    "section": "How do dingoes connect through the landscape?",
-    "text": "How do dingoes connect through the landscape?\n\nWhat are their connectivity pathways and movement corridors?\nWould adding more roads increase or decrease their landscape connectivity?\n\n\nMethods\n\nStep selection functions with simulations (J. Signer et al. 2023; Hofmann et al. 2023; Forrest et al. 2024; Cowan et al. 2025)\nConnectivity analyses\n\nBetweenness/connectivity (Hofmann et al. 2023; Cowan et al. 2025)\nLeast-cost paths (Etherington 2016),\nConScape (Dorber et al. 2023; Van Moorter et al. 2023)\nCircuitScape https://circuitscape.org/"
-  },
-  {
-    "objectID": "research_questions.html#do-dingoes-near-mines-have-a-higher-probability-of-disease-transmission",
-    "href": "research_questions.html#do-dingoes-near-mines-have-a-higher-probability-of-disease-transmission",
-    "title": "Research Questions",
-    "section": "Do dingoes near mines have a higher probability of disease transmission?",
-    "text": "Do dingoes near mines have a higher probability of disease transmission?\n\nDo dingoes near mines revisit the same sites more often, such as dumps?\nWhich dingoes interact more often with other individuals?\nAre dingoes at mine sites have more connected social networks?\n\n\nMethods\n\nSocial network analysis\nRevisitation (Bracis, Bildstein, and Mueller 2018)"
-  },
-  {
-    "objectID": "research_questions.html#references",
-    "href": "research_questions.html#references",
-    "title": "Research Questions",
-    "section": "References",
-    "text": "References\n\n\nBracis, Chloe, Keith L Bildstein, and Thomas Mueller. 2018. “Revisitation analysis uncovers spatio-temporal patterns in animal movement data.” Ecography 41 (November): 1801–11. https://doi.org/10.1111/ecog.03618.\n\n\nCowan, Mitchell A, Scott W Forrest, Samantha A Setterfield, Judy A Dunlop, Lesley A Gibson, and Dale G Nimmo. 2025. “The impact of mining on animal movement and landscape connectivity revealed through simulations and scenarios.” Ecological Applications 35 (October): e70134. https://doi.org/10.1002/eap.70134.\n\n\nDorber, Martin, Manuela Panzacchi, Olav Strand, and Bram van Moorter. 2023. “New indicator of habitat functionality reveals high risk of underestimating trade-offs among sustainable development goals: The case of wild reindeer and hydropower.” Ambio 52 (April): 757–68. https://doi.org/10.1007/s13280-022-01824-x.\n\n\nEtherington, Thomas R. 2016. “Least-Cost Modelling and Landscape Ecology: Concepts, Applications, and Opportunities.” Current Landscape Ecology Reports 1 (March): 40–53. https://doi.org/10.1007/s40823-016-0006-9.\n\n\nForrest, Scott W, Dan Pagendam, Michael Bode, Christopher Drovandi, Jonathan R Potts, Justin Perry, Eric Vanderduys, and Andrew J Hoskins. 2024. “Predicting fine‐scale distributions and emergent spatiotemporal patterns from temporally dynamic step selection simulations.” Ecography, December. https://doi.org/10.1111/ecog.07421.\n\n\nFortin, Daniel, Hawthorne L Beyer, Mark S Boyce, Douglas W Smith, Thierry Duchesne, and Julie S Mao. 2005. “Wolves influence elk movements: Behavior shapes a trophic cascade in Yellowstone National Park.” Ecology 86 (May): 1320–30. https://doi.org/10.1890/04-0953.\n\n\nGurarie, Eliezer. 2013. “Behavioral Change Point Analysis in R: The bcpa package.” Behavioural Change Point Analysis in R: The Bcpa Package, 1–16.\n\n\nGurarie, Eliezer, Russel D Andrews, and Kristin L Laidre. 2009. “A novel method for identifying behavioural changes in animal movement data.” Ecology Letters 12 (May): 395–408. https://doi.org/10.1111/j.1461-0248.2009.01293.x.\n\n\nGurarie, Eliezer, Chloe Bracis, Maria Delgado, Trevor D Meckley, Ilpo Kojola, and C Michael Wagner. 2016. “What is the animal doing? Tools for exploring behavioural structure in animal movements.” The Journal of Animal Ecology 85 (January): 69–84. https://doi.org/10.1111/1365-2656.12379.\n\n\nHofmann, David D, Gabriele Cozzi, John W McNutt, Arpat Ozgul, and Dominik M Behr. 2023. “A three-step approach for assessing landscape connectivity via simulated dispersal: African wild dog case study.” Landscape Ecology 38 (February): 981–98. https://doi.org/10.1007/s10980-023-01602-4.\n\n\nKlappstein, Natasha J, Théo Michelot, John Fieberg, Eric J Pedersen, and Joanna Mills Flemming. 2024. “Step selection functions with non‐linear and random effects.” Methods in Ecology and Evolution, June. https://doi.org/10.1111/2041-210x.14367.\n\n\nLangrock, Roland, Ruth King, Jason Matthiopoulos, Len Thomas, Daniel Fortin, and Juan M Morales. 2012. “Flexible and practical modeling of animal telemetry data: hidden Markov models and extensions.” Ecology 93 (November): 2336–42. https://doi.org/10.1890/11-2241.1.\n\n\nMcClintock, Brett T, Ruth King, Len Thomas, Jason Matthiopoulos, Bernie J McConnell, and Juan M Morales. 2012. “A general discrete-time modeling framework for animal movement using multistate random walks.” Ecological Monographs 82 (August): 335–49. https://doi.org/10.1890/11-0326.1.\n\n\nNewsome, Thomas M, Guy-Anthony Ballard, Christopher R Dickman, Peter J S Fleming, and Chris Howden. 2013. “Anthropogenic resource subsidies determine space use by Australian arid zone dingoes: an improved resource selection modelling approach.” PloS One 8 (May): e63931. https://doi.org/10.1371/journal.pone.0063931.\n\n\nNewsome, Thomas M, Guy-Anthony Ballard, Christopher R Dickman, Peter J S Fleming, and Remy van de Ven. 2013. “Home range, activity and sociality of a top predator, the dingo: a test of the Resource Dispersion Hypothesis.” Ecography 36 (August): 914–25. https://doi.org/10.1111/j.1600-0587.2013.00056.x.\n\n\nSigner, J, J Fieberg, B Reineking, U Schlägel, B Smith, N Balkenhol, and T Avgar. 2023. “Simulating animal space use from fitted integrated Step‐Selection Functions (iSSF).” Methods in Ecology and Evolution, December. https://doi.org/10.1111/2041-210x.14263.\n\n\nSigner, Johannes, John Fieberg, and Tal Avgar. 2019. “Animal movement tools (amt): R package for managing tracking data and conducting habitat selection analyses.” Ecology and Evolution 9 (January): 880–90. https://doi.org/10.1002/ece3.4823.\n\n\nThurfjell, Henrik, Simone Ciuti, and Mark Boyce. 2014. “Applications of step-selection functions in ecology and conservation.” Movement Ecology 2 (February): 4. https://doi.org/10.1186/2051-3933-2-4.\n\n\nVan Moorter, Bram, Ilkka Kivimäki, Andreas Noack, Robin Devooght, Manuela Panzacchi, Kimberly R Hall, Pierre Leleux, and Marco Saerens. 2023. “Accelerating advances in landscape connectivity modelling with the ConScape library.” Methods in Ecology and Evolution 14 (January): 133–45. https://doi.org/10.1111/2041-210x.13850."
+    "text": "Welcome to the landing page of the ESA2025 workshop - Movement Ecology Hackathon: A dingo case study!\nThis workshop was organised by members of the Ecological Society of Australia’s Movement Ecology Special Interest Network Special Interest Network (MoveSIN). You can view the website of the MoveSIN here, which has a sign-up form, and you can check out the listing on the ESA website here.\nTo get started with the materials for this workshop, visit the Getting Started page.\n\n\n\nPhoto by Alexander Babych - from https://babych.au/wild-and-unfiltered-a-closer-look-at-the-dingoes-of-the-tanami-desert/\n\n\n\nOrganisers\nThis workshop was organised and facilitated by members of the MoveSIN crew:\n\n\n\nSlides\nYou can download a PDF the slides for this workshop here.\n\n\n\nSharing these resources\nFeel free to share these resources! The materials are licensed under aan MIT license, which means you are free to share and adapt the materials as long as you provide appropriate credit.\nYou can cite these resources using:\nForrest, S., Meisuria, N., Cairncross, R., Fuik-Burgemeestre, S., Newsome, T., Bentley, L., & Cowan, M. (2025). swforrest/ESA2025_movement_ecology_hackathon: Workshop release (v1.0). Zenodo. https://doi.org/10.5281/zenodo.17635592"
   },
   {
     "objectID": "data_preparation.html",
@@ -317,11 +196,160 @@
     "text": "Load distance layers\n\n\nCode\n# load distance to artificial food layer\ndist_artificial_food &lt;- terra::rast(\"spatial_layers/artificial_food/dist_artificial_food.tif\")\nplot(dist_artificial_food, main = \"Distance to Artificial Food\")\n\n\n\n\n\n\n\n\n\nCode\n# load distance to artificial water layer\ndist_artificial_water &lt;- terra::rast(\"spatial_layers/artificial_water/dist_artificial_water.tif\")\nplot(dist_artificial_water, main = \"Distance to Artificial Water\")\n\n\n\n\n\n\n\n\n\nCode\n# load distance to roads layer\ndist_roads &lt;- terra::rast(\"spatial_layers/roads/dist_roads.tif\")\nplot(dist_roads, main = \"Distance to Roads\")"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ESA2025 Movement Ecology Hackathon: A dingo case study",
+    "objectID": "research_questions.html",
+    "href": "research_questions.html",
+    "title": "Research Questions",
     "section": "",
-    "text": "Welcome to the landing page of the ESA2025 workshop - Movement Ecology Hackathon: A dingo case study!\nThis workshop was organised by members of the Ecological Society of Australia’s Movement Ecology Special Interest Network Special Interest Network (MoveSIN). You can view the website of the MoveSIN here, which has a sign-up form, and you can check out the listing on the ESA website here.\nTo get started with the materials for this workshop, visit the Getting Started page.\n\n\n\nPhoto by Alexander Babych - from https://babych.au/wild-and-unfiltered-a-closer-look-at-the-dingoes-of-the-tanami-desert/\n\n\n\nOrganisers\nThis workshop was organised and facilitated by members of the MoveSIN crew:\n\n\n\nSlides\nYou can download a PDF the slides for this workshop here.\n\n\n\nSharing these resources\nFeel free to share these resources! The materials are licensed under aan MIT license, which means you are free to share and adapt the materials as long as you provide appropriate credit.\nYou can cite these resources using:\nForrest, S., Meisuria, N., Cairncross, R., Fuik-Burgemeestre, S., Newsome, T., Bentley, L., & Cowan, M. (2025). swforrest/ESA2025_movement_ecology_hackathon: Workshop release (v1.0). Zenodo. https://doi.org/10.5281/zenodo.17635592"
+    "text": "Below are some examples of research questions that could be explored with the dingo GPS data set. These are just suggestions to get you thinking - feel free to come up with your own questions too!\nThe focus of papers that have previously analysed this data focused on broad-scale behaviours like home ranges (Newsome, Ballard, Dickman, Fleming, and Howden 2013) and landscape-scale resource selection (Newsome, Ballard, Dickman, Fleming, and Ven 2013), but there are a number of other research questions that could be addressed, particularly at fine-scales.\nSome suggestions are:"
+  },
+  {
+    "objectID": "research_questions.html#how-do-dingo-behaviours-differ-between-individuals-at-mine-sites-and-those-elsewhere",
+    "href": "research_questions.html#how-do-dingo-behaviours-differ-between-individuals-at-mine-sites-and-those-elsewhere",
+    "title": "Research Questions",
+    "section": "How do dingo behaviours differ between individuals at mine sites and those elsewhere?",
+    "text": "How do dingo behaviours differ between individuals at mine sites and those elsewhere?\n\nDo non-mine dingoes spend more time in higher energy foraging states?\nWhen do they switch behaviours, how does that differ between mine/non-mine IDs\n\n\nMethods\n\nHidden Markov models (Langrock et al. 2012; McClintock et al. 2012)\nBehavioural change point analysis (BCPA) (Gurarie, Andrews, and Laidre 2009; Gurarie 2013; Gurarie et al. 2016)"
+  },
+  {
+    "objectID": "research_questions.html#what-is-the-influence-of-the-surrounding-environment-on-the-dingoes-movement",
+    "href": "research_questions.html#what-is-the-influence-of-the-surrounding-environment-on-the-dingoes-movement",
+    "title": "Research Questions",
+    "section": "What is the influence of the surrounding environment on the dingoes’ movement?",
+    "text": "What is the influence of the surrounding environment on the dingoes’ movement?\n\nDo they select for linear features such as roads?\nDoes their movement and habitat selection differ between mine and non-mine sites?\n\n\nMethods\n\nStep selection functions (SSFs) (Fortin et al. 2005; Thurfjell, Ciuti, and Boyce 2014; Johannes Signer, Fieberg, and Avgar 2019)"
+  },
+  {
+    "objectID": "research_questions.html#how-do-dingoes-behaviours-change-across-the-day",
+    "href": "research_questions.html#how-do-dingoes-behaviours-change-across-the-day",
+    "title": "Research Questions",
+    "section": "How do dingoes’ behaviours change across the day?",
+    "text": "How do dingoes’ behaviours change across the day?\n\nAre there temporal dynamics in their movement and habitat selection?\nDoes the probability of switching behaviours vary throughout the day?\n\n\nMethods\n\nDescriptive (summarising data across the day)\nTemporally dynamic SSFs (Forrest et al. 2024; Klappstein et al. 2024)\nHMMs with a temporal covariate on state transition matrix"
+  },
+  {
+    "objectID": "research_questions.html#how-do-dingoes-connect-through-the-landscape",
+    "href": "research_questions.html#how-do-dingoes-connect-through-the-landscape",
+    "title": "Research Questions",
+    "section": "How do dingoes connect through the landscape?",
+    "text": "How do dingoes connect through the landscape?\n\nWhat are their connectivity pathways and movement corridors?\nWould adding more roads increase or decrease their landscape connectivity?\n\n\nMethods\n\nStep selection functions with simulations (J. Signer et al. 2023; Hofmann et al. 2023; Forrest et al. 2024; Cowan et al. 2025)\nConnectivity analyses\n\nBetweenness/connectivity (Hofmann et al. 2023; Cowan et al. 2025)\nLeast-cost paths (Etherington 2016),\nConScape (Dorber et al. 2023; Van Moorter et al. 2023)\nCircuitScape https://circuitscape.org/"
+  },
+  {
+    "objectID": "research_questions.html#do-dingoes-near-mines-have-a-higher-probability-of-disease-transmission",
+    "href": "research_questions.html#do-dingoes-near-mines-have-a-higher-probability-of-disease-transmission",
+    "title": "Research Questions",
+    "section": "Do dingoes near mines have a higher probability of disease transmission?",
+    "text": "Do dingoes near mines have a higher probability of disease transmission?\n\nDo dingoes near mines revisit the same sites more often, such as dumps?\nWhich dingoes interact more often with other individuals?\nAre dingoes at mine sites have more connected social networks?\n\n\nMethods\n\nSocial network analysis\nRevisitation (Bracis, Bildstein, and Mueller 2018)"
+  },
+  {
+    "objectID": "research_questions.html#references",
+    "href": "research_questions.html#references",
+    "title": "Research Questions",
+    "section": "References",
+    "text": "References\n\n\nBracis, Chloe, Keith L Bildstein, and Thomas Mueller. 2018. “Revisitation analysis uncovers spatio-temporal patterns in animal movement data.” Ecography 41 (November): 1801–11. https://doi.org/10.1111/ecog.03618.\n\n\nCowan, Mitchell A, Scott W Forrest, Samantha A Setterfield, Judy A Dunlop, Lesley A Gibson, and Dale G Nimmo. 2025. “The impact of mining on animal movement and landscape connectivity revealed through simulations and scenarios.” Ecological Applications 35 (October): e70134. https://doi.org/10.1002/eap.70134.\n\n\nDorber, Martin, Manuela Panzacchi, Olav Strand, and Bram van Moorter. 2023. “New indicator of habitat functionality reveals high risk of underestimating trade-offs among sustainable development goals: The case of wild reindeer and hydropower.” Ambio 52 (April): 757–68. https://doi.org/10.1007/s13280-022-01824-x.\n\n\nEtherington, Thomas R. 2016. “Least-Cost Modelling and Landscape Ecology: Concepts, Applications, and Opportunities.” Current Landscape Ecology Reports 1 (March): 40–53. https://doi.org/10.1007/s40823-016-0006-9.\n\n\nForrest, Scott W, Dan Pagendam, Michael Bode, Christopher Drovandi, Jonathan R Potts, Justin Perry, Eric Vanderduys, and Andrew J Hoskins. 2024. “Predicting fine‐scale distributions and emergent spatiotemporal patterns from temporally dynamic step selection simulations.” Ecography, December. https://doi.org/10.1111/ecog.07421.\n\n\nFortin, Daniel, Hawthorne L Beyer, Mark S Boyce, Douglas W Smith, Thierry Duchesne, and Julie S Mao. 2005. “Wolves influence elk movements: Behavior shapes a trophic cascade in Yellowstone National Park.” Ecology 86 (May): 1320–30. https://doi.org/10.1890/04-0953.\n\n\nGurarie, Eliezer. 2013. “Behavioral Change Point Analysis in R: The bcpa package.” Behavioural Change Point Analysis in R: The Bcpa Package, 1–16.\n\n\nGurarie, Eliezer, Russel D Andrews, and Kristin L Laidre. 2009. “A novel method for identifying behavioural changes in animal movement data.” Ecology Letters 12 (May): 395–408. https://doi.org/10.1111/j.1461-0248.2009.01293.x.\n\n\nGurarie, Eliezer, Chloe Bracis, Maria Delgado, Trevor D Meckley, Ilpo Kojola, and C Michael Wagner. 2016. “What is the animal doing? Tools for exploring behavioural structure in animal movements.” The Journal of Animal Ecology 85 (January): 69–84. https://doi.org/10.1111/1365-2656.12379.\n\n\nHofmann, David D, Gabriele Cozzi, John W McNutt, Arpat Ozgul, and Dominik M Behr. 2023. “A three-step approach for assessing landscape connectivity via simulated dispersal: African wild dog case study.” Landscape Ecology 38 (February): 981–98. https://doi.org/10.1007/s10980-023-01602-4.\n\n\nKlappstein, Natasha J, Théo Michelot, John Fieberg, Eric J Pedersen, and Joanna Mills Flemming. 2024. “Step selection functions with non‐linear and random effects.” Methods in Ecology and Evolution, June. https://doi.org/10.1111/2041-210x.14367.\n\n\nLangrock, Roland, Ruth King, Jason Matthiopoulos, Len Thomas, Daniel Fortin, and Juan M Morales. 2012. “Flexible and practical modeling of animal telemetry data: hidden Markov models and extensions.” Ecology 93 (November): 2336–42. https://doi.org/10.1890/11-2241.1.\n\n\nMcClintock, Brett T, Ruth King, Len Thomas, Jason Matthiopoulos, Bernie J McConnell, and Juan M Morales. 2012. “A general discrete-time modeling framework for animal movement using multistate random walks.” Ecological Monographs 82 (August): 335–49. https://doi.org/10.1890/11-0326.1.\n\n\nNewsome, Thomas M, Guy-Anthony Ballard, Christopher R Dickman, Peter J S Fleming, and Chris Howden. 2013. “Anthropogenic resource subsidies determine space use by Australian arid zone dingoes: an improved resource selection modelling approach.” PloS One 8 (May): e63931. https://doi.org/10.1371/journal.pone.0063931.\n\n\nNewsome, Thomas M, Guy-Anthony Ballard, Christopher R Dickman, Peter J S Fleming, and Remy van de Ven. 2013. “Home range, activity and sociality of a top predator, the dingo: a test of the Resource Dispersion Hypothesis.” Ecography 36 (August): 914–25. https://doi.org/10.1111/j.1600-0587.2013.00056.x.\n\n\nSigner, J, J Fieberg, B Reineking, U Schlägel, B Smith, N Balkenhol, and T Avgar. 2023. “Simulating animal space use from fitted integrated Step‐Selection Functions (iSSF).” Methods in Ecology and Evolution, December. https://doi.org/10.1111/2041-210x.14263.\n\n\nSigner, Johannes, John Fieberg, and Tal Avgar. 2019. “Animal movement tools (amt): R package for managing tracking data and conducting habitat selection analyses.” Ecology and Evolution 9 (January): 880–90. https://doi.org/10.1002/ece3.4823.\n\n\nThurfjell, Henrik, Simone Ciuti, and Mark Boyce. 2014. “Applications of step-selection functions in ecology and conservation.” Movement Ecology 2 (February): 4. https://doi.org/10.1186/2051-3933-2-4.\n\n\nVan Moorter, Bram, Ilkka Kivimäki, Andreas Noack, Robin Devooght, Manuela Panzacchi, Kimberly R Hall, Pierre Leleux, and Marco Saerens. 2023. “Accelerating advances in landscape connectivity modelling with the ConScape library.” Methods in Ecology and Evolution 14 (January): 133–45. https://doi.org/10.1111/2041-210x.13850."
+  },
+  {
+    "objectID": "data_study_system.html",
+    "href": "data_study_system.html",
+    "title": "Data and Study System",
+    "section": "",
+    "text": "Dingoes (Canis lupus dingo) most likely arrived in Australia on boats from Asia at least 4,000 years ago [1–3]. Sometime after their introduction and adoption by indigenous Australians, dingoes became feral and have since occupied nearly every terrestrial habitat on the mainland [4]. Dingoes, like free-roaming dogs elsewhere, interact with humans and the water and food resources they provide either purposely or accidentally though refuse and artificial water points [5].\n\nFrom Newsome et al. (2013)."
+  },
+  {
+    "objectID": "data_study_system.html#dingo-canis-lupus-dingo",
+    "href": "data_study_system.html#dingo-canis-lupus-dingo",
+    "title": "Data and Study System",
+    "section": "",
+    "text": "Dingoes (Canis lupus dingo) most likely arrived in Australia on boats from Asia at least 4,000 years ago [1–3]. Sometime after their introduction and adoption by indigenous Australians, dingoes became feral and have since occupied nearly every terrestrial habitat on the mainland [4]. Dingoes, like free-roaming dogs elsewhere, interact with humans and the water and food resources they provide either purposely or accidentally though refuse and artificial water points [5].\n\nFrom Newsome et al. (2013)."
+  },
+  {
+    "objectID": "data_study_system.html#tanami-desert",
+    "href": "data_study_system.html#tanami-desert",
+    "title": "Data and Study System",
+    "section": "Tanami Desert",
+    "text": "Tanami Desert"
+  },
+  {
+    "objectID": "data_study_system.html#mines-in-the-tanami-desert",
+    "href": "data_study_system.html#mines-in-the-tanami-desert",
+    "title": "Data and Study System",
+    "section": "Mines in the Tanami Desert",
+    "text": "Mines in the Tanami Desert\nThe mines, and the artificial food and water resources they provide in the Tanami Desert, offer a natural experiment to examine dingo behavioural responses.\n\nThe study region, covering approximately 18,000 km^2 in the western portion of central Australia’s Tanami Desert (130 deg 189E, 20 deg 309 S), was delimited by the perimeter of all GPS fixes that were obtained from collars fitted to dingoes between April 2008 and April 2010 (Figure 1). Land-use in the study region includes gold mining operations and pastoral activities. Mining operations are located at The Granites and Dead Bullock Soak (DBS). Disused gold mines with open-cut pits and no human occupation are located at Windy Hill and Tanami Mine, and cattle are kept on Tanami Downs. At the time of this study, there were 13 human-provided watering points permanently available to dingoes (Figure 1). Also available to dingoes were large quantities of food scraps within refuse facilities at The Granites and to a lesser extent at DBS. A roadhouse is located at Rabbit Flat and a farm house is occupied by pastoral workers on Tanami Downs. A series of major and minor tracks associated with both pastoral and mining operations exists throughout the study region (Figure 1).\n\nFrom Newsome et al. (2013).\n\nMine sites\n\nFood resources for dingoes are spatially clumped and very rich\nCan lead to increased interactions with humans and possibly each other\n\n\n\nSpatially distant areas (non-mine sites)\n\nFood resources are naturally dispersed and relatively sparse"
+  },
+  {
+    "objectID": "data_study_system.html#gps-data-collection",
+    "href": "data_study_system.html#gps-data-collection",
+    "title": "Data and Study System",
+    "section": "GPS data collection",
+    "text": "GPS data collection\n\n\n\nDingo GPS data collection area\n\n\n\nOne hundred and eleven dingoes were live captured and released between April 2008 and April 2010 and collars housing a GPS data logger and a VHF transmitter (Sirtrack, Havelock North, New Zealand and Bluesky Telemetry, Aberfeldy, Scotland) were fitted to a sample of 23 adults. Both male and female dingoes were collared, but only if they weighed more than 20 times the weight of the collar. Collar weight also limited the sampling period so, to ensure that dingoes were tracked under all seasonal conditions, collaring was staggered throughout the study period. In doing so, we sampled dingoes in as many areas as possible along a latitudinal transect between DBS and Mt Davidson (Figure 1) whilst ensuring replicates of both males and females in the sampled areas where GPS fixes (locations logged and stored as longitude- latitude co-ordinates) had been recovered from retrieved collars. The GPS unit on every collar was programmed to estimate a fix each hour, with sampling rates based on battery-life calculations. Seven collars suffered mechanical failures and did not return any data, and three were not found, but the remainder logged GPS information for up to 10 months at a time. Data from the collars included an Horizontal Dilution Of Position (HDOP) value as well as the number of satellites used to calculate each fix. The HDOP was used to determine a Maximum Allowable Error (MAE) of fix accuracy by multiplying the HDOP value by the accuracy of the GPS device, which was 2.5 m [24]. Fixes with an HDOP value &gt; 8 were excluded to balance the number of usable fixes against positional accuracy, yielding a MAE of 40 m.\n\nFrom Newsome et al. (2013)\n\n\n\nFrom Newsome et al. (2013)."
+  },
+  {
+    "objectID": "data_study_system.html#previous-research-with-this-data",
+    "href": "data_study_system.html#previous-research-with-this-data",
+    "title": "Data and Study System",
+    "section": "Previous research with this data",
+    "text": "Previous research with this data\n(Newsome, Ballard, Dickman, Fleming, and Ven 2013) - Newsome, T. M., Ballard, G.-A., Dickman, C. R., Fleming, P. J. S., & van de Ven, R. (2013). Home range, activity and sociality of a top predator, the dingo: a test of the Resource Dispersion Hypothesis. Ecography, 36(8), 914–925. https://doi.org/10.1111/j.1600-0587.2013.00056.x\n(Newsome, Ballard, Dickman, Fleming, and Howden 2013) - Newsome, T. M., Ballard, G.-A., Dickman, C. R., Fleming, P. J. S., & Howden, C. (2013). Anthropogenic resource subsidies determine space use by Australian arid zone dingoes: an improved resource selection modelling approach. PloS One, 8(5), e63931. https://doi.org/10.1371/journal.pone.0063931"
+  },
+  {
+    "objectID": "getting_started.html",
+    "href": "getting_started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "It will be helpful to access the full repository for this workshop, for the data, covariates and any template scripts to get started. The resources (and this website) are hosted on GitHub at: https://github.com/swforrest/ESA2025_movement_ecology_hackathon.\nHere are two preferred ways to get all of the resources (without having to download things individually), 1) by ‘forking’ the repository on GitHub, or 2) by downloading the repository as a ZIP file. If you want to have a copy of the repository on your GitHub account, which you can push any changes to for version control, then choose the first option."
+  },
+  {
+    "objectID": "getting_started.html#fork-the-repository-on-github",
+    "href": "getting_started.html#fork-the-repository-on-github",
+    "title": "Getting Started",
+    "section": "Fork the repository on GitHub",
+    "text": "Fork the repository on GitHub\nThis requires having a GitHub account.\n\nGo to the GitHub page for the repository: https://github.com/swforrest/ESA2025_movement_ecology_hackathon\nClick on the “Fork” button at the top right of the page. This will create a copy of the repository in your own GitHub account.\n\n\n\n\nForking the original repository\n\n\n\nYou can then ‘clone’ this forked repository to your local files. Copying the URL of your forked repository (click on the green “Code” button and copy the URL). You should do this in your own version of the repository, not the original one, otherwise you won’t be able to push your changes.\n\n\n\n\nCopying the repo URL\n\n\n\nThen in RStudio go to File &gt; New Project &gt; Version Control &gt; Git, and paste in the URL you copied. Choose a local directory to save the project, and click “Create Project”.\n\n\n\n\nFile &gt; New project\n\n\n\n\n\nVersion Control\n\n\n You can leave the Project directory name blank to let it default to the repository name.\n\n\n\nPaste URL &gt; Select the location to save the repository folder\n\n\nYou should now have a folder on your computer with all of the files, which is linked to a GitHub repository on your own account. You can then make changes to any of the files, and push them to your GitHub repository."
+  },
+  {
+    "objectID": "getting_started.html#download-the-repository-as-a-zip-file",
+    "href": "getting_started.html#download-the-repository-as-a-zip-file",
+    "title": "Getting Started",
+    "section": "Download the repository as a ZIP file",
+    "text": "Download the repository as a ZIP file\nYou can do this by clicking on the green “Code” button at the top right of the GitHub page and selecting “Download ZIP”. Once downloaded, unzip the file to a location on your computer where you can easily find it.\nThis option will give you a copy of the repository on your local computer, but it will not be linked to a GitHub repository, so you won’t be able to push any changes to GitHub. Of course, you can create your own repository afterwards and push all of the files there, but in that case it’s probably easier to fork the repository first as described above."
+  },
+  {
+    "objectID": "methods_scripts/ssf.html",
+    "href": "methods_scripts/ssf.html",
+    "title": "Step selection functions (SSF)",
+    "section": "",
+    "text": "amt - main package for SSFs (Johannes Signer, Fieberg, and Avgar 2019)",
+    "crumbs": [
+      "Methods",
+      "Step selection functions (SSF)"
+    ]
+  },
+  {
+    "objectID": "methods_scripts/ssf.html#packages",
+    "href": "methods_scripts/ssf.html#packages",
+    "title": "Step selection functions (SSF)",
+    "section": "",
+    "text": "amt - main package for SSFs (Johannes Signer, Fieberg, and Avgar 2019)",
+    "crumbs": [
+      "Methods",
+      "Step selection functions (SSF)"
+    ]
+  },
+  {
+    "objectID": "methods_scripts/ssf.html#tutorials-and-resources",
+    "href": "methods_scripts/ssf.html#tutorials-and-resources",
+    "title": "Step selection functions (SSF)",
+    "section": "Tutorials and resources",
+    "text": "Tutorials and resources\n\namt preparing data\n\nhttps://cran.r-project.org/web/packages/amt/vignettes/p1_getting_started.html\n\n\n\namt fitting step selection functions\n\nhttps://cran.r-project.org/web/packages/amt/vignettes/p4_SSF.html",
+    "crumbs": [
+      "Methods",
+      "Step selection functions (SSF)"
+    ]
+  },
+  {
+    "objectID": "methods_scripts/ssf.html#useful-papers",
+    "href": "methods_scripts/ssf.html#useful-papers",
+    "title": "Step selection functions (SSF)",
+    "section": "Useful papers",
+    "text": "Useful papers\n(Fortin et al. 2005) - the OG SSF paper Fortin, D., Beyer, H. L., Boyce, M. S., Smith, D. W., Duchesne, T., & Mao, J. S. (2005). Wolves influence elk movements: Behavior shapes a trophic cascade in Yellowstone National Park. Ecology, 86(5), 1320–1330. https://doi.org/10.1890/04-0953\n(Avgar et al. 2016) - for integrating movement and resource selection (with movement interactions) Avgar, T., Potts, J. R., Lewis, M. A., & Boyce, M. (2016). Integrated step selection analysis: bridging the gap between resource selection and animal movement. Methods in Ecology and Evolution, 7(5), 619–630. https://doi.org/10.1111/2041-210x.12528\n(Fieberg et al. 2021) - helpful guide for interpreting parameters in RSFs and SSFs Fieberg, J., Signer, J., Smith, B., & Avgar, T. (2021). A “How to” guide for interpreting parameters in habitat-selection analyses. The Journal of Animal Ecology, 90(5), 1027–1043. https://doi.org/10.1111/1365-2656.13441\n(J. Signer et al. 2023) - for generating simulations from SSFs Signer, J., Fieberg, J., Reineking, B., Schlägel, U., Smith, B., Balkenhol, N., & Avgar, T. (2023). Simulating animal space use from fitted integrated Step‐Selection Functions (iSSF). Methods in Ecology and Evolution. https://doi.org/10.1111/2041-210x.14263\n(Hofmann et al. 2023) - full workflow from fitting SSFs, running simulations, and calculating connectivity Hofmann, D. D., Cozzi, G., McNutt, J. W., Ozgul, A., & Behr, D. M. (2023). A three-step approach for assessing landscape connectivity via simulated dispersal: African wild dog case study. Landscape Ecology, 38(4), 981–998. https://doi.org/10.1007/s10980-023-01602-4\n(Michelot et al. 2024) - a helpful conceptual overview of what SSFs are and how they’re estimated Michelot, T., Klappstein, N. J., Potts, J. R., & Fieberg, J. (2024). Understanding step selection analysis through numerical integration. Methods in Ecology and Evolution, 15(1), 24–35. https://doi.org/10.1111/2041-210x.14248",
+    "crumbs": [
+      "Methods",
+      "Step selection functions (SSF)"
+    ]
   },
   {
     "objectID": "methods_scripts/social_networks.html",
