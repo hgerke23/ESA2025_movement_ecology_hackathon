@@ -43,6 +43,13 @@ library(sf)
 library(terra)
 library(amt)
 
+
+#### load libraries ####
+library(momentuHMM)
+library(ggplot2)
+library(adehabitatHR)
+library(lubridate)
+
 ```
 
 # Load data
@@ -265,6 +272,12 @@ plot(dist_artificial_water, main = "Distance to Artificial Water")
 dist_roads <- terra::rast("spatial_layers/roads/dist_roads.tif")
 plot(dist_roads, main = "Distance to Roads")
 
+
+#check resolution
+res(dist_artificial_food)
+res(dist_artificial_water)
+res(dist_roads)
+
 ```
 
 # NDVI
@@ -285,3 +298,22 @@ plot(ndvi, main = "Mean NDVI 2008-2010 - MODIS")
 
 ::: {#refs}
 :::
+
+
+
+# Start inspecting/cleaning
+
+```{r}
+
+str(dingo_data)
+
+dingo_data %>%
+  group_by(dogname) %>%
+  summarise(n_pts = n(),
+            sex = first(sex),
+            mine_away = first(mine_away))
+
+
+
+```
+
